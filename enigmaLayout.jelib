@@ -1,0 +1,29 @@
+# header information:
+HenigmaLayout|9.06
+
+# Views:
+Vlayout|lay
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+Tmocmosold|ScaleFORmocmosold()D300.0
+
+# Cell ASCII_compare;1{lay}
+CASCII_compare;1{lay}||mocmos|1481682832657|1481682832658|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell OR4;1{lay}
+COR4;1{lay}||mocmos|1481581097108|1481581097108|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell XOR_domino;1{lay}
+CXOR_domino;1{lay}||mocmos|1481682705920|1481682705921|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell enigma;1{lay}
+Cenigma;1{lay}||mocmos|1481580890125|1481580890126|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
