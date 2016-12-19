@@ -2036,6 +2036,12 @@ EPLACE_4||D5G10;RX-3;Y25;|pin@283||O
 EVDD||D5G10;X13;Y-2;|pin@8||P
 X
 
+# Cell enigma4_with_registers;1{lay}
+Cenigma4_with_registers;1{lay}||mocmos|1482095646010|1482095655663|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+Ienigma4;1{lay}|enigma4@0||96|196|||D5G4;
+X
+
 # Cell enigma_unit;1{lay}
 Cenigma_unit;1{lay}||mocmos|1481580890125|1482077983172||DRC_last_good_drc_area_date()G1482077929435|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1482083956068
 IOR3;1{lay}|OR3@0||4660|508|||D5G4;
