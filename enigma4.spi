@@ -151,6 +151,15 @@ VKEY_D5 KEY_D5 0 DC 0
 VKEY_D6 KEY_D6 0 DC 0
 VKEY_D7 KEY_D7 0 DC 0
 VKEY_D8 KEY_D8 0 DC 3.3
-.TRAN 0 4u
 .include C:\electric\MOS_model.txt
+.TRAN 0 1u
+.measure tran place_1 param v(place_1)
+.measure tran place_2 param v(place_2)
+.measure tran place_3 param v(place_3)
+.measure tran place_4 param v(place_4)
+.measure tran match_1 param v(match_1)
+.measure tran match_2 param v(match_2)
+.measure tran match_3 param v(match_3)
+.measure tran match_4 param v(match_4)
+.save v(place_1) v(match_1) v(place_2) v(match_2) v(place_3) v(match_3) v(place_4) v(match_4)
 .END
