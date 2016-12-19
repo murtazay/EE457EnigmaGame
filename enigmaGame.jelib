@@ -241,7 +241,7 @@ Evdd||D5G2;|pwr@0||P
 X
 
 # Cell enigma;1{sch}
-Cenigma;1{sch}||schematic|1482000274912|1482089084139|
+Cenigma;1{sch}||schematic|1482000274912|1482097579765|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||63|25|||X|
 NOff-Page|conn@1||62|-8|||X|
@@ -436,6 +436,7 @@ NWire_Pin|pin@203||-29|-148||||
 NWire_Pin|pin@204||-47|-148||||
 NBus_Pin|pin@205||-34|20||||
 NBus_Pin|pin@206||-34|18||||
+Ngeneric:Invisible-Pin|pin@285||-107|-8|||||SIM_spice_card(D5G1;)S[vdd   vdd 0 dc 3.3,vgnd gnd 0 dc 0,"va0r[7] a0r[7] 0 dc 0","va0r[6] a0r[6] 0 dc 0","va0r[5] a0r[5] 0 dc 0","va0r[4] a0r[4] 0 dc 0","va0r[3] a0r[3] 0 dc 0","va0r[2] a0r[2] 0 dc 0","va0r[1] a0r[1] 0 dc 0","va0r[0] a0r[0] 0 dc 0",.tran 0.0001 0.1,.end]
 NPower|pwr@0||-73|-148||||
 Isrlatch8;1{ic}|srlatch8@8||-44|86|||D5G4;
 Isrlatch8;1{ic}|srlatch8@12||-46|-109|||D5G4;

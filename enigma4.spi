@@ -119,13 +119,13 @@ VGUESS_D5 GUESS_D5 0 DC 0
 VGUESS_D6 GUESS_D6 0 DC 0
 VGUESS_D7 GUESS_D7 0 DC 0
 VGUESS_D8 GUESS_D8 0 DC 0
-VKEY_A1 KEY_A1 0 DC 0
-VKEY_A2 KEY_A2 0 DC 0
-VKEY_A3 KEY_A3 0 DC 0
-VKEY_A4 KEY_A4 0 DC 0
-VKEY_A5 KEY_A5 0 DC 0
-VKEY_A6 KEY_A6 0 DC 0
-VKEY_A7 KEY_A7 0 DC 0
+VKEY_A1 KEY_A1 0 DC 3.3
+VKEY_A2 KEY_A2 0 DC 3.3
+VKEY_A3 KEY_A3 0 DC 3.3
+VKEY_A4 KEY_A4 0 DC 3.3
+VKEY_A5 KEY_A5 0 DC 3.3
+VKEY_A6 KEY_A6 0 DC 3.3
+VKEY_A7 KEY_A7 0 DC 3.3
 VKEY_A8 KEY_A8 0 DC 3.3
 VKEY_B1 KEY_B1 0 DC 0
 VKEY_B2 KEY_B2 0 DC 0
@@ -151,6 +151,15 @@ VKEY_D5 KEY_D5 0 DC 3.3
 VKEY_D6 KEY_D6 0 DC 0
 VKEY_D7 KEY_D7 0 DC 0
 VKEY_D8 KEY_D8 0 DC 0
-.TRAN 0 4u
-.include C:\electric\MOS_model.txt
+.TRAN 0 1u
+.include ./mos_model.txt
+.measure tran place_1 param v(place_1)
+.measure tran place_2 param v(place_2)
+.measure tran place_3 param v(place_3)
+.measure tran place_4 param v(place_4)
+.measure tran match_1 param v(match_1)
+.measure tran match_2 param v(match_2)
+.measure tran match_3 param v(match_3)
+.measure tran match_4 param v(match_4)
+.save v(place_1) v(match_1) v(place_2) v(match_2) v(place_3) v(match_3) v(place_4) v(match_4)
 .END
